@@ -1,0 +1,15 @@
+<table class="tabela">
+  <thead class="cabecalho">
+    <th class="conteudo-head">Data</th>
+    <th class="conteudo-head">Valor</th>
+    <th class="conteudo-head">Destino</th>
+  </thead>
+
+  <tbody>
+    <tr class="linha" *ngFor="let transferencia of listaTransferencias">
+      <td class="conteudo-body">{{transferencia.data | date: 'short'}}</td>
+      <td class="conteudo-body">{{transferencia.valor | currency}}</td>
+      <td class="conteudo-body">{{transferencia.destino}}</td>
+    </tr>
+  </tbody>
+</table>

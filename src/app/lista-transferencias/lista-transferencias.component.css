@@ -1,0 +1,28 @@
+.tabela{
+    text-align: center;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1); 
+}
+
+.cabecalho{
+    color: var(--primary);
+}
+
+.conteudo-head{
+    padding: 10px;
+    border-bottom: 2px solid var(--secondary-cor);
+}
+
+.linha{
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+.conteudo-body{
+    padding: 10px;
+    border-bottom: 1px solid var(--primary);
+}
+
+
+
