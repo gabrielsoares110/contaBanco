@@ -14,9 +14,6 @@ export class ListaTransferenciasComponent implements OnInit {
   constructor(private listaTransferenciaService: ListaTransferenciaService) { }
 
   ngOnInit() {
-  }
-
-  receberTransferencia(){
     this.listaTransferencias = this.listaTransferenciaService.getListaTransferencia();
   }
 
